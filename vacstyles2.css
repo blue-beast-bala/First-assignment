@@ -1,0 +1,95 @@
+
+
+
+        
+footer {
+    width: 0%;
+    background-color: #FA7436;
+    height: auto;
+    position: absolute;
+    margin-top: 500px;
+}
+
+footer .Subscribe {
+    position: absolute;
+    background-color: #FA7436;
+    width: 1100px;
+    padding: 90px;
+    z-index: 999;
+    top: -40%;
+    left: 10%;
+    text-align: center;
+    border-radius: 15px;
+    margin-left: 95px;
+}
+
+footer .Subscribe h1 {
+    font-size: 50px;
+    text-align: center;
+    padding: 0 120px;
+    color: white;
+    font-family: "Volkhov", serif;
+}
+
+input[type="email"] {
+    display: inline-block;
+    width: 65%;
+    height: 30px;
+    padding: 24px 40px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 150px;
+
+}
+
+.email-img {
+    position: absolute;
+    top: 68%;
+    z-index: 999;
+    left: 26%;
+}
+
+.btn {
+    background-color: #FA7436;
+    color: white;
+    cursor: pointer;
+    border: none;
+    display: inline-block;
+    position: relative;
+    left: -114px;
+    padding: 10px 20px;
+    border-radius: 9px;
+    font-size: 15px;
+}
+
+footer .Subscribe .img1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 110px;
+    margin-top: 10px;
+}
+
+footer .Subscribe .img2 {
+    position: absolute;
+    width: 350px;
+    top: 35%;
+    left: 0;
+    z-index: -1;
+    height: 250px;
+}
+
+.footer-ends {
+    position: relative;
+    padding: 20px;
+    margin-top: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
